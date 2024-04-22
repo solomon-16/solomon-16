@@ -1,7 +1,7 @@
-import gym
+import gymnasium as gym
 import networkx as nx
 import numpy as np
-from gym import spaces
+from gymnasium import spaces
 from gymnasium.spaces import Graph, Box, Discrete
 
 # Function to create the network for customized topology
